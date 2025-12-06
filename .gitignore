@@ -1,0 +1,29 @@
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build output
+dist/
+build/
+bin/
+obj/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
