@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="01-Buddy.Tests/**" />
+    <EmbeddedResource Remove="01-Buddy.Tests/**" />
+    <None Remove="01-Buddy.Tests/**" />
+  </ItemGroup>
+
 </Project>
